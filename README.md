@@ -13,7 +13,7 @@ A browser-based virtual photography studio for arranging people, lights, cameras
 ## From an idea to a shoot plan
 
 1. **Choose a starting point.** Load one of 15 lighting setups, including Rembrandt, three-point and clamshell lighting.
-2. **Choose your subject.** Browse the studio's 12 character options, then adjust position, height and pose.
+2. **Choose your subject.** Browse the studio's 17 character options, then adjust position, height and pose.
 3. **Arrange the light.** Work with distance, direction, output, colour temperature and light modifiers.
 4. **Frame the photograph.** Adjust focal length, aperture and ISO; check the viewfinder before rendering.
 5. **Take the plan with you.** Save the scene, export the project or prepare a lighting setup sheet.
@@ -36,7 +36,7 @@ Switch between studio, top-down plan, viewfinder and render views while keeping 
 
 ### Confirm framing and exposure
 
-![Simple workspace showing the camera view and focal length, aperture and ISO controls](camera-preview-v1.png)
+![Professional workspace showing the camera view and exposure controls](camera-preview-v1.png)
 
 Check focal length, aperture, ISO and framing in Simple mode, or use the fuller camera controls in Professional mode. Higher-quality rendering is also available; rendering speed depends on the device and scene.
 
@@ -44,7 +44,7 @@ These are screenshots of a virtual studio, not photographs from a physical shoot
 
 ## Choose the person in front of the lens
 
-The homepage presents a large character preview alongside a selector for all 12 v1 options. The previews have transparent backgrounds and come from the studio's original 3D models.
+The homepage presents a large character preview alongside a selector for all 17 v1 options. The previews have transparent backgrounds and come from the studio's original 3D models.
 
 <p>
   <img src="cast-business-female.webp" alt="Business character preview from the v1 cast" height="350" />
@@ -62,6 +62,22 @@ Select another character to change the available build, face and clothing. Cloth
 | Scene | Shared project format | Shared project format |
 
 [Open Simple mode](https://lumen-stage.vercel.app/studio?ui=mobile) · [Open Professional mode](https://lumen-stage.vercel.app/studio?ui=full)
+
+## Mobile, with room to work
+
+The phone studio uses brighter editing views while keeping camera exposure separate. Choose an actual character instead of controls that cannot change baked-in clothing or physique. Selecting a seated pose adds a chair if there is no seat already in place.
+
+In **Layout**, choose **Compact controls · hide presets** to give the scene more space while keeping object selection and position controls available. Show presets again whenever you need a new starting setup.
+
+<img src="mobile-studio-4k.png" alt="Current phone studio with character selection and simplified controls" width="360" />
+
+All updated interface screenshots are captured at **3840 × 2160** on desktop and **2160 × 3840** on phone. Open an image to view its full resolution.
+
+## Feedback
+
+[Leave feedback for YuYing](https://github.com/clark970417-eng/lumen-stage-showcase/issues/new?template=feedback.yml) — suggestions, bugs and general impressions are welcome in English, 繁體中文 or 日本語. GitHub sign-in is required and reports are public. Please leave private photos and project files out of reports.
+
+[View submitted feedback](https://github.com/clark970417-eng/lumen-stage-showcase/issues)
 
 ## Included in the first release
 
