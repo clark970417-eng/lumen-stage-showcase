@@ -1,65 +1,91 @@
-# Lumen Stage
+# Lumen Stage · v1
 
 **Plan the light. Frame the shot.**
 
-Lumen Stage is a browser-based virtual photography studio for planning lighting, camera, subject, and backdrop decisions before a real shoot.
+A browser-based virtual photography studio for arranging people, lights, cameras and backdrops before a real shoot.
 
-[Open the live website](https://lumen-stage.vercel.app/)
+**First release** · Free to use · Desktop and mobile · English / 繁體中文 / 日本語
 
-![Lumen Stage virtual photography studio](lumen-stage-cover.jpg)
+[Open Lumen Stage](https://lumen-stage.vercel.app/) · [繁體中文介紹](README.zh-TW.md)
 
-## What it helps you plan
+![Lumen Stage v1 homepage, with the shared dark, cyan and amber visual system](homepage-v1.png)
 
-- Build a scene with subjects, lights, cameras, and backdrops in one shared 3D space.
-- Work with photographic controls such as distance, focal length, aperture, illuminance, colour temperature, and modifiers.
-- Review the studio, camera frame, rendered result, and top-down layout without rebuilding the setup.
-- Start from 15 classic lighting setups, including Rembrandt, three-point, and clamshell lighting.
-- Save projects locally, compare decisions, and export a setup for use on set.
+## From an idea to a shoot plan
 
-## Two workspace modes
+1. **Choose a starting point.** Load one of 15 lighting setups, including Rembrandt, three-point and clamshell lighting.
+2. **Choose your subject.** Browse the studio's 12 character options, then adjust position, height and pose.
+3. **Arrange the light.** Work with distance, direction, output, colour temperature and light modifiers.
+4. **Frame the photograph.** Adjust focal length, aperture and ISO; check the viewfinder before rendering.
+5. **Take the plan with you.** Save the scene, export the project or prepare a lighting setup sheet.
 
-**Simple mode** keeps the essential controls visible for first-time users and photography learners.
+![Three built-in lighting setup examples on the v1 website](lighting-setups-v1.png)
 
-**Professional mode** provides the complete lighting, camera, metering, continuity, preset, and export workflow.
+## A scene you can work in
 
-Both modes use the same scene format, so a project can move between them without being rebuilt.
+### Position people and lights
 
-## A continuous photography workflow
+![Professional workspace showing a selected key light and the shared 3D scene](studio-workspace.png)
 
-### Arrange the scene
+The subject, lights, camera and backdrop occupy the same measurable space. In Layout view, drag unlocked objects directly in the viewport, including with touch. Use the numeric controls when you need a precise position.
 
-![The Lumen Stage studio workspace](studio-workspace.png)
+### Check the layout from above
 
-Position the subject, build the lighting pattern, and adjust the scene with measurable spatial controls.
+![Top-down view showing the subject, lights, camera and backdrop](layout-view.png)
 
-### Confirm the layout
+Switch between studio, top-down plan, viewfinder and render views while keeping the same scene. The plan view makes spacing and lighting direction easier to inspect.
 
-![Top-down layout view](layout-view.png)
+### Confirm framing and exposure
 
-Review the relationship between the subject, lights, camera, and backdrop from above before going on set.
+![Simple workspace showing the camera view and focal length, aperture and ISO controls](camera-preview-v1.png)
 
-### Review the result
+Check focal length, aperture, ISO and framing in Simple mode, or use the fuller camera controls in Professional mode. Higher-quality rendering is also available; rendering speed depends on the device and scene.
 
-![Rendered lighting preview](render-preview.webp)
+These are screenshots of a virtual studio, not photographs from a physical shoot. The simulation helps compare decisions; final exposure and colour still need to be checked on set.
 
-Compare the live workspace with a higher-quality render to judge exposure, shadow direction, and detail.
+## Choose the person in front of the lens
 
-## Availability
+The homepage presents a large character preview alongside a selector for all 12 v1 options. The previews have transparent backgrounds and come from the studio's original 3D models.
 
-- Public beta
-- Free to use
-- No installation required
-- No account or credit card required
-- English, Traditional Chinese, and Japanese interfaces
-- Desktop and mobile workspaces
+<p>
+  <img src="cast-business-female.webp" alt="Business character preview from the v1 cast" height="350" />
+  <img src="cast-work-jacket.webp" alt="Work-jacket character preview from the v1 cast" height="350" />
+</p>
 
-## Privacy
+Select another character to change the available build, face and clothing. Clothing and colour are baked into these characters' textures; selecting a different outfit is not the same as freely recolouring or reshaping a person.
 
-Projects stay in the browser by default. Lumen Stage does not require an account and does not use project scenes as a public dataset.
+## Two ways to work
 
-## Repository access
+| | Simple mode | Professional mode |
+| --- | --- | --- |
+| Best for | Getting started, quick adjustments and mobile use | Detailed planning and control |
+| Workspace | Essential Person, Light, Camera and Layout controls | Full inspectors, metering, continuity, presets and export tools |
+| Scene | Shared project format | Shared project format |
 
-This repository is a private product showcase. It contains product information and selected visuals only. The application source code and development history are maintained separately and are not included here.
+[Open Simple mode](https://lumen-stage.vercel.app/studio?ui=mobile) · [Open Professional mode](https://lumen-stage.vercel.app/studio?ui=full)
+
+## Included in the first release
+
+- One navigation bar ordered to match the page, with a compact mobile menu.
+- Scene images paired with clear, labelled settings previews.
+- A selectable cast with larger transparent character previews.
+- Task-specific illustrated onboarding and direct viewport dragging in Layout.
+- Shared model loading and visible loading feedback for studio characters.
+- English, Traditional Chinese and Japanese interfaces.
+- An explicit **v1 · First release** marker in the About dialog.
+
+## Your projects and data
+
+Projects stay in the browser by default. There is no account requirement or behavioural analytics. Anonymous technical error reports may be sent, without scenes, photos, project names or imported files.
+
+Export important projects as a backup. A scene-sharing link carries the scene data in its URL, so share it only with people you intend to give access to.
+
+[Privacy](https://lumen-stage.vercel.app/privacy) · [Support and feedback](https://lumen-stage.vercel.app/support)
+
+## About this repository
+
+This repository contains product documentation and selected visuals. Application source code and development history are maintained separately.
+
+The v1 visuals show the released interface and its studio assets. Homepage settings previews explain the controls; they are not interactive Studio inspectors. Character assets derive from [Microsoft Rocketbox](https://github.com/microsoft/Microsoft-Rocketbox), distributed under the MIT licence.
 
 ---
 
