@@ -75,11 +75,13 @@ Lumen Stage 是在瀏覽器中使用的虛擬攝影棚。把人物、燈具、�
 
 ## 留下回饋
 
-[向 YuYing 提交回饋](https://github.com/clark970417-eng/lumen-stage-showcase/issues/new?template=feedback.yml)：歡迎提供功能建議、操作問題或使用感受，中、英、日文皆可。需要登入 GitHub，回報內容會公開；請勿附上私人照片或專案檔。
+[向 YuYing 提交回饋](https://lumen-stage.vercel.app/#feedback)：歡迎提供功能建議、操作問題或使用感受，中、英、日文皆可。免登入、可匿名；希望收到回覆時再留下聯絡信箱。
 
-[查看已提交的回饋](https://github.com/clark970417-eng/lumen-stage-showcase/issues)
+[公開問題追蹤](https://github.com/clark970417-eng/lumen-stage-showcase/issues)
 
 ## 第一版包含
+
+最近更新：**2026.09.06**。
 
 - 與頁面順序一致的單一導覽列，以及手機選單。
 - 左側場景搭配右側清晰設定預覽的功能展示。

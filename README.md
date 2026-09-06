@@ -75,11 +75,13 @@ All updated interface screenshots are captured at **3840 × 2160** on desktop an
 
 ## Feedback
 
-[Leave feedback for YuYing](https://github.com/clark970417-eng/lumen-stage-showcase/issues/new?template=feedback.yml) — suggestions, bugs and general impressions are welcome in English, 繁體中文 or 日本語. GitHub sign-in is required and reports are public. Please leave private photos and project files out of reports.
+[Leave feedback for YuYing](https://lumen-stage.vercel.app/#feedback) — share suggestions, bugs and impressions in English, 繁體中文 or 日本語. No sign-in is needed. You can submit anonymously, or leave an email if you would like a reply.
 
-[View submitted feedback](https://github.com/clark970417-eng/lumen-stage-showcase/issues)
+[Public issue tracker](https://github.com/clark970417-eng/lumen-stage-showcase/issues)
 
 ## Included in the first release
+
+Updated: **2026.09.06**.
 
 - One navigation bar ordered to match the page, with a compact mobile menu.
 - Scene images paired with clear, labelled settings previews.
